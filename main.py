@@ -32,9 +32,8 @@ allowed_origins = [
 # Add production origins
 if IS_PRODUCTION:
     allowed_origins.extend([
-        "https://*.vercel.app",
-        # Add your specific Vercel domain here once deployed
-        # "https://your-app-name.vercel.app",
+        "https://ragbot-frontend-k4aftiupj-namans-projects-d2a8c5a2.vercel.app",
+        "https://*.vercel.app",  # For preview deployments
     ])
 else:
     # Development - allow all origins
