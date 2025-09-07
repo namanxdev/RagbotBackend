@@ -59,6 +59,7 @@ pydantic-settings==2.10.1
 pydantic_core==2.33.2
 pypdf==6.0.0
 python-dotenv==1.1.1
+python-multipart==0.0.16
 PyYAML==6.0.2
 requests==2.32.5
 requests-toolbelt==1.0.0
